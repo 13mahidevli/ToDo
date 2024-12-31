@@ -10,7 +10,7 @@ body{
 }
 input {
   padding: 8px;
-  width: 300px;
+  width: 200px;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -60,13 +60,4 @@ button {
   border-radius: 5px;
   cursor: pointer;
 } 
-/* <ul style={{ listStyle: "none" }} className=" text-center">
-{tasks.map((task) => (
-  <li id={task.id}>
-    {task.text}
-    <button className="mx-2" onClick={(e) => deletes(task.id)}>
-      delete
-    </button>
-  </li>
-))}
-</ul> */
+
