@@ -3,18 +3,39 @@
   font-family: Arial, sans-serif;
   margin: 20px;
 }
-
-input {
-  padding: 10px;
-  width: 200px;
-  margin-right: 10px;
-  font-size: 16px;
+body{
+  background-color: #2E5077;
+  color: #79D7BE;
+  text-transform: capitalize;
 }
-
+input {
+  padding: 8px;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.boxes{
+  background-color: #4DA1A9;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+}
+.box{
+  border-radius: 10px;
+  font-weight: bolder;
+  color: black;
+}
 button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  background-color: #F6F4F0;
 }
 
 ul {
@@ -23,7 +44,7 @@ ul {
 }
 
 li {
-  background-color: #f4f4f4;
+  background-color: #e4e1e1;
   margin: 5px;
   padding: 10px;
   display: flex;
@@ -31,10 +52,21 @@ li {
 }
 
 button {
-  background-color: red;
-  color: white;
-  border: none;
+  background-color: #F6F4F0;
+  color: rgb(9, 9, 9);
+  border: 1px solid grey;
   padding: 7px;
+  text-transform: capitalize;
   border-radius: 5px;
   cursor: pointer;
 } 
+/* <ul style={{ listStyle: "none" }} className=" text-center">
+{tasks.map((task) => (
+  <li id={task.id}>
+    {task.text}
+    <button className="mx-2" onClick={(e) => deletes(task.id)}>
+      delete
+    </button>
+  </li>
+))}
+</ul> */
